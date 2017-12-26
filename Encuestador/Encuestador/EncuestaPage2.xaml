@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Encuestador.EncuestaPage2" xmlns:local="clr-namespace:Encuestador;assembly=Encuestador">
+	<ContentPage.Content>
+		<ScrollView>
+			<ScrollView.Margin>
+				<OnPlatform x:TypeArguments="Thickness" iOS="0,25,0,0" Android="0" />
+			</ScrollView.Margin>
+			<StackLayout x:Name="_stack">
+				<!--<Grid HorizontalOptions="FillAndExpand" HeightRequest="400">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="1*" />
+					<RowDefinition Height="Auto" />
+					<RowDefinition Height="1*" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="1*" />
+					<ColumnDefinition Width="1*" />
+				</Grid.ColumnDefinitions>
+				<local:ListBox x:Name="_listItems" Grid.Column="0" Grid.Row="0" />
+				<local:ListBox x:Name="_listCasillas" Grid.Column="1" Grid.Row="0" />
+				<StackLayout Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+					<Label HorizontalOptions="Center" Text="RESPUESTAS" />
+				</StackLayout>
+				<ListView x:Name="_listRespuestas" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" HasUnevenRows="true">
+					<ListView.ItemTemplate>
+						<DataTemplate>
+							<ViewCell>
+								<StackLayout Padding="8">
+									<Label Text="{Binding Value}" TextColor="#000" FontSize="15" HorizontalTextAlignment="Start" HorizontalOptions="FillAndExpand" />
+								</StackLayout>
+							</ViewCell>
+						</DataTemplate>
+					</ListView.ItemTemplate>
+				</ListView>
+			</Grid>-->
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
